@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(244, 244, 244, 1); /* Light gray */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 1); /* White */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+h1, h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 1); /* Black */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgba(204, 204, 204, 1); /* Light gray border */
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgba(40, 167, 69, 1); /* Green */
+    color: rgba(255, 255, 255, 1); /* White */
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(33, 136, 56, 1); /* Darker green */
+}
+
