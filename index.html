@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medical System</h1>
+        <div id="form-container">
+            <h2 id="form-title">Sign Up</h2>
+            <form id="user-form">
+                <select id="user-type">
+                    <option value="practitioner">Medical Practitioner</option>
+                    <option value="patient">Patient</option>
+                </select>
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <input type="text" id="speciality" placeholder="Speciality" style="display:none;">
+                <button type="submit">Submit</button>
+            </form>
+            <button id="toggle-form">Switch to Log In</button>
+        </div>
+        <div id="login-container" style="display:none;">
+            <h2>Log In</h2>
+            <form id="login-form">
+                <input type="text" id="login-username" placeholder="Username" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+        <div id="records-container" style="display:none;">
+            <h2>Medical Reports</h2>
+            <div id="records"></div>
+            <button id="back-to-login">Back to Log In</button>
+        </div>
+        <div id="add-record-container" style="display:none;">
+            <h2>Add Medical Record</h2>
+            <form id="add-record-form">
+                <input type="text" id="record-patient" placeholder="Patient Username" required>
+                <input type="text" id="record-condition" placeholder="Condition" required>
+                <input type="text" id="record-description" placeholder="Description" required>
+                <input type="text" id="record-prescription" placeholder="Prescription" required>
+                <input type="text" id="record-solution" placeholder="Solution" required>
+                <button type="submit">Add Record</button>
+            </form>
+            <input type="text" id="send-to-username" placeholder="Send to Practitioner Username" required>
+            <button id="send-record">Send Record</button>
+            <button id="view-records">View Patient Records</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
