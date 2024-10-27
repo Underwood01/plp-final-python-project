@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(244, 244, 244, 1); /* Light gray */
+    background-color: rgba(244, 244, 244, 1); 
     margin: 0;
     padding: 20px;
 }
@@ -8,15 +8,15 @@ body {
 .container {
     max-width: 600px;
     margin: auto;
-    background: rgba(255, 255, 255, 1); /* White */
+    background: rgba(255, 255, 255, 1);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     text-align: center;
-    color: rgba(0, 0, 0, 1); /* Black */
+    color: rgba(0, 0, 0, 1);
 }
 
 form {
@@ -27,18 +27,18 @@ form {
 input, select, button {
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid rgba(204, 204, 204, 1); /* Light gray border */
+    border: 1px solid rgba(204, 204, 204, 1);
     border-radius: 5px;
 }
 
 button {
-    background-color: rgba(40, 167, 69, 1); /* Green */
-    color: rgba(255, 255, 255, 1); /* White */
+    background-color: rgba(40, 167, 69, 1);
+    color: rgba(255, 255, 255, 1);
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgba(33, 136, 56, 1); /* Darker green */
+    background-color: rgba(33, 136, 56, 1);
 }
 
